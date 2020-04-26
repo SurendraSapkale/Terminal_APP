@@ -1,0 +1,3 @@
+Chicken 10 Kg
+Lamb 5 Kg
+Goat 5 Kg
