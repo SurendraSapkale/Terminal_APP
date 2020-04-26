@@ -65,9 +65,13 @@ On the terminal the user will be provided with a welcome message and option to c
 
 
 
-###### Trello Set Up
+###### Trello board Set Up! (./docs/Trello_board.jpg)
+ 
 
+
+Trello link :
 https://trello.com/b/fBwZKWcm/myterminalapp
+
 
 
 
