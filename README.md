@@ -65,8 +65,9 @@ On the terminal the user will be provided with a welcome message and option to c
 
 
 
-###### Trello board Set Up! (./docs/Trello_board.jpg)
- 
+###### Trello board Set Up![image-20200426143525995](./docs/Trello_board.jpg)
+
+
 
 
 Trello link :
