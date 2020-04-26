@@ -7,9 +7,10 @@ def add_case
 		puts "Please enter quantity of the #{name}"
 	
 	    	begin			
-				quantity = gets.chomp.to_i
-			rescue
-				puts "Please enter quantity for #{name} in whole numbers only"
+				quantity = Integer(gets.chomp)
+			rescue ArgumentError
+                puts "Please enter quantity for #{name} in whole numbers only".red
+                exit
 			end
 	
 		if $category == "DAIRY"
@@ -31,9 +32,10 @@ def del_case
 		puts "Please enter quantity of the #{name}"
 	
 	    	begin			
-				quantity = gets.chomp.to_i
-			rescue
-				puts "Please enter quantity for #{name} in whole numbers only"
+				quantity = Integer(gets.chomp)
+			rescue ArgumentError
+                puts "Please enter quantity for #{name} in whole numbers only".red
+                exit
 			end
 	
     	if $category == "DAIRY"
@@ -51,9 +53,16 @@ end
 require_relative "./classes/dairy.rb"
 require_relative "./classes/grocery.rb"
 require_relative "./classes/meat.rb"
+require 'terminal-table'
+
 $yes_no = "Y"
 
-puts " WELCOME TO INVENTORY MANAGEMENT APP".red.on_white.blink
+#puts " WELCOME TO INVENTORY MANAGEMENT APP".red.on_white.blink
+rows = []
+rows << [""]
+table = Terminal::Table.new :title => ['WELCOME TO INVENTORY MANAGEMENT APP'], :rows => rows
+puts table
+
 puts " "
 goback_flag = false
 until goback_flag
@@ -64,9 +73,10 @@ until goback_flag
 	puts "OPTION 3 : TO VIEW CURRENT STOCK ON HAND".white.on_black
 
 	begin
-	   	option = gets.chomp.to_i
-	rescue TypeError
-		puts "PLEASE ENTER THE APPROPRIATE OPTION NUMBER"
+	   	option = Integer(gets.chomp)
+	rescue ArgumentError
+        puts "PLEASE ENTER THE APPROPRIATE OPTION NUMBER".red
+        exit
 	end
 
 #TO GET CATEGORY FROM THE INVENTORY

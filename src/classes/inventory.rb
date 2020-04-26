@@ -1,5 +1,7 @@
 require 'fileutils'
 require 'colorize'
+require 'terminal-table'
+
 class Inventory
 	attr_accessor :item, :quantity, :category
 	
@@ -26,7 +28,7 @@ class Inventory
 		output_lines = Array.new(0)
 		input_lines.map do |line|
 			line_contents = line.split
-			if line_contents[0] == name
+			if line_contents[0].upcase == name.upcase
 				add_quantity = line_contents[1].to_i + quantity
 				line_contents[1] = add_quantity
 				output_lines << line_contents.join(' ')
@@ -62,7 +64,7 @@ class Inventory
 		output_lines = Array.new(0)
 		input_lines.map do |line|
 			line_contents = line.split
-			if line_contents[0] == name
+			if line_contents[0].upcase == name.upcase
 				add_quantity = line_contents[1].to_i - quantity
 				line_contents[1] = add_quantity
 				output_lines << line_contents.join(' ')
@@ -90,10 +92,16 @@ class Inventory
 			ifile_name = "./classes/grocery.txt"
 		end
 		
-		
 		file = File.open("#{ifile_name}", "r")
-		puts"INVENTORY ITEMS ARE:".black.on_white
-		puts file.read
+		input_lines = File.readlines("#{ifile_name}")
+
+		rows = []
+		for i in input_lines
+			rows << i.split
+		end
+		table = Terminal::Table.new :headings => ['ITEM', 'QUANTITY', 'UNIT'], :rows => rows
+		puts table
+
 		file.close
 	end
 end
