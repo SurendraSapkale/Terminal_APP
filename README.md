@@ -54,8 +54,7 @@ On the terminal the user will be provided with a welcome message and option to c
 
 
 
-##### Control Flow Diagram![image-20200422122730624](./docs/IMG-0338.jpg)
-
+##### Control Flow Diagram![image-20200427005405515] (./docs/Control Flow chart-Inventory App.png)
 
 
 

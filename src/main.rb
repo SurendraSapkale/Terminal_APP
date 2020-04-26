@@ -54,9 +54,12 @@ require_relative "./classes/dairy.rb"
 require_relative "./classes/grocery.rb"
 require_relative "./classes/meat.rb"
 require 'terminal-table'
+#require 'tty-prompt'
 
 $yes_no = "Y"
 
+#font = TTY::Font.new(:block)
+#puts font.write("WELCOME TO INVENTORY MANAGEMENT APP")
 #puts " WELCOME TO INVENTORY MANAGEMENT APP".red.on_white.blink
 rows = []
 rows << [""]
@@ -66,11 +69,11 @@ puts table
 puts " "
 goback_flag = false
 until goback_flag
-    puts "PLEASE CHOOSE ONE OF THE FOLLOWING MENU OPTIONS:".black.on_white
+    puts "PLEASE CHOOSE ONE OF THE FOLLOWING MENU OPTIONS:".blue.on_white
     puts " "
-	puts "OPTION 1 : TO ADD NEW STOCK TO THE INVENTORY".white.on_black
-	puts "OPTION 2 : TO REMOVE USED STOCK FROM THE INVENTORY".white.on_black
-	puts "OPTION 3 : TO VIEW CURRENT STOCK ON HAND".white.on_black
+	puts "OPTION 1 : TO ADD NEW STOCK TO THE INVENTORY".green.on_black
+	puts "OPTION 2 : TO REMOVE USED STOCK FROM THE INVENTORY".red.on_black
+	puts "OPTION 3 : TO VIEW CURRENT STOCK ON HAND".blue.on_black
 
 	begin
 	   	option = Integer(gets.chomp)
@@ -80,8 +83,8 @@ until goback_flag
 	end
 
 #TO GET CATEGORY FROM THE INVENTORY
-	puts "PLEASE CHOOSE YOUR CATEGORY FROM THE FOLLOWING OPTIONS:".white.on_black
-	puts "DAIRY, MEAT, GROCERY.".white.on_black
+	puts "PLEASE CHOOSE YOUR CATEGORY FROM THE FOLLOWING OPTIONS:".blue.on_white
+	puts "DAIRY, MEAT, GROCERY.".yellow.on_black
 	$category = gets.chomp.upcase
 	
 	case
