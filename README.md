@@ -1,6 +1,7 @@
 # **Terminal_App developments Links :**
 
 https://github.com/SurendraSapkale/Terminal_APP.git
+
 https://trello.com/b/fBwZKWcm/myterminalapp
 
 
@@ -74,6 +75,34 @@ This feature will be an added advantage to the application, and will add to the 
 # UI and UX 
 
 On the terminal the user will be provided with a welcome message and option to choose what action is needed by the user. If user chooses to add new stock items then it will be provided with various categories under which the stock needs to be updated. If user wants to update the inventory for used up stock then again the user will be provided various categories and options to update it. The user can also view the current stock on hand and items that need to be ordered.
+
+#### File structure screen displayed 
+
+![image-20200427201833894](./docs/File_Structure.jpg)
+
+#### Executable File
+
+![image-20200427202510181](./docs/Executable_file.jpg)
+
+
+
+#### The APP starts with the below menu screen being displayed.
+
+![image-20200427202722450](./docs/program_run.jpg)
+
+#### Screen displayed for Item addition
+
+![image-20200427202946497](./docs/add_item.jpg)
+
+#### Screen displayed for remove the item
+
+![image-20200427203103834](./docs/Removing_items.jpg)
+
+#### Screen display to check Inventory/Stock
+
+![image-20200427203227886](./docs/Stock_check.jpg)
+
+
 
 
 
