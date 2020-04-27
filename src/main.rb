@@ -1,4 +1,6 @@
 require 'colorize'
+require 'pastel'
+
 #Main Application
 def add_case
 	puts "Please enter name of the item"
@@ -54,16 +56,15 @@ require_relative "./classes/dairy.rb"
 require_relative "./classes/grocery.rb"
 require_relative "./classes/meat.rb"
 require 'terminal-table'
-#require 'tty-prompt'
 
 $yes_no = "Y"
 
-#font = TTY::Font.new(:block)
-#puts font.write("WELCOME TO INVENTORY MANAGEMENT APP")
-#puts " WELCOME TO INVENTORY MANAGEMENT APP".red.on_white.blink
+pastel = Pastel.new
+color_text = pastel.blue("WELCOME TO INVENTORY MANAGEMENT APP")
+
 rows = []
 rows << [""]
-table = Terminal::Table.new :title => ['WELCOME TO INVENTORY MANAGEMENT APP'], :rows => rows
+table = Terminal::Table.new :title => color_text, :rows => rows
 puts table
 
 puts " "
