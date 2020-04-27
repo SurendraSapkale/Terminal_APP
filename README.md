@@ -77,4 +77,18 @@ https://trello.com/b/fBwZKWcm/myterminalapp
 
 
 
-Nice to have feature (TBA)
+
+
+
+
+| Feature                                                      | Expected Outcome                                             | Actual Outcome | Any remaining issues? |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | --------------------- |
+| User wants to add items to the inventory                     | Application takes the feature option, category, item name and number and updates it in the respective category file. | As expected    | Nil                   |
+| User wants to delete items from the inventory                | Application takes the feature option, category, item name and number and updates it in the respective category file. | As expected    | Nil                   |
+| User wants to view the inventory                             | Application takes the  feature option and category, and provides user with all the items under that category inventory file in terminal table. | As expected    | Nil                   |
+| User gets to add or delete as many items as required under a particular category | After every update application checks with user if any more items are required to to be added, if yes it back in the loop. | As expected    | Nil                   |
+| User should get the option to back to main menu if no more additions or deletions | If no more additions or deletions the user gets option to go back to main menu or exit the application | As expected    | Nil                   |
+| After viewing the inventory user should get option to back to main menu | After viewing the inventory user gets option to go back to main menu or exit the application | As expected    | Nil                   |
+| For numeric options user has to provide the appropriate option number. | If user provided option is non-numeric the application should throw appropriate error message and exit the application. | As expected    | Nil                   |
+|                                                              |                                                              |                |                       |
+
