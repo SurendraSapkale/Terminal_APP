@@ -99,6 +99,16 @@ I used Trello to manage my application production by setting timeline of buildin
 
 ![image-20200426143525995](./docs/Trello_board.jpg)
 
+#### Gems used to develop this App
+
+Inventory App makes makes use of a number of Gems to improve the user experience and enhance the overall functionality of the game. All of these gems are stored in the Gemfile.
+
+source "https://rubygems.org"
+
+- gem "colorize"
+- gem "fileutils"
+- gem "terminal-table"
+- gem "tty-prompt"
 
 
 
