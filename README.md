@@ -1,16 +1,15 @@
-**Terminal_App developments Links :**
+# **Terminal_App developments Links :**
+
 https://github.com/SurendraSapkale/Terminal_APP.git
 https://trello.com/b/fBwZKWcm/myterminalapp
 
 
 
-### Statement of Purpose and Scope
+# Statement of Purpose and Scope
 
 Restaurant Inventory App  is an essential part of successful and well-organized business organization to manage inventory system in more effective and efficient manner. This App is designed to provide accurate information on all aspects of inventory to control the stock levels (whether inventory items are over stocked or out of stock) for an enterprise. 
 
-
-
-**What this App will do**
+### **What this App will do**
 
 This APP will help to improve profits and efficiency for restaurants. Restaurants owners and managers will be able to easily regulate their stock. This will ensure that the restaurant always has ready stock avoiding delays and lack of certain food because of lack of supplies. 
 
@@ -24,7 +23,7 @@ It will provide inventory information such as:
 
 
 
-**Who will benefit from this App**
+### **Who will benefit from this App**
 
 Inventory App becomes a crucial part of small, mid and large hospitality business organizations to manage inventory system in accurate manner. This inventory app is specially designed for following users:
 
@@ -34,73 +33,67 @@ Inventory App becomes a crucial part of small, mid and large hospitality busines
 
 
 
-**How it will help the audience**
+### **How it will help the audience**
 
 The Chef's and Restaurant Managers will be able to keep up to date track of their of their Inventory.
 
-## Features
 
-**Add newly arrived Stock**
+
+# Features
+
+#### Add newly arrived Stock
 
 Here the user will be able to update the inventory with newly arrived stock. This will update the respective category tables with the current stock on hand.
 
-**Delete used stock from the Inventory**
+#### **Delete used stock from the Inventory**
 
 The user will be able to delete the item from the Inventory which has been consumed for the day, this will keep track of correct record of stock on hand
 
-**View current Inventory or list of Items to be purchased.**
+#### **View current Inventory or list of Items to be purchased.**
 
 User to view his inventory in the form of a nice table. The user can save the inventory items in a a file
 
 
-Nice to have features**
 
-- **Auto reminder for depleting stock items**.
+## Nice to have features**
 
-  This will be a very helpful feature for the user. Instead of checking the Inventory file every time and checking for depleting stock items manually, the application will send an automated report file with all the depleting stock items that needs to be ordered. The application will check the stock on hand with the required quantity, and will list down all the items with depleting quantity in the report file and mail it to the user. This function will need to be auto triggered at a particular time of the day, or could be made ad-hoc.
+#### Auto reminder for depleting stock items
 
-- **Unit conversion for different types of stock**
+This will be a very helpful feature for the user. Instead of checking the Inventory file every time and checking for depleting stock items manually, the application will send an automated report file with all the depleting stock items that needs to be ordered. The application will check the stock on hand with the required quantity, and will list down all the items with depleting quantity in the report file and mail it to the user. This function will need to be auto triggered at a particular time of the day, or could be made ad-hoc.
+
+#### Unit conversion for different types of stock
 
 Currently the application is handling the quantity of items in only one type of unit. For example Meat in Kg. If an auto unit conversion mechanism is implemented then it will make the application more flexible, as user will get to choose between different unit types.
 
-- **Addition of new category or new stock item.**
+#### Addition of new category or new stock item.
 
 This feature will be an added advantage to the application, and will add to the flexibility of the application. 
 
 
 
-
-
-
-
- 
-
- 
-
-#### UI and UX 
+# UI and UX 
 
 On the terminal the user will be provided with a welcome message and option to choose what action is needed by the user. If user chooses to add new stock items then it will be provided with various categories under which the stock needs to be updated. If user wants to update the inventory for used up stock then again the user will be provided various categories and options to update it. The user can also view the current stock on hand and items that need to be ordered.
 
 
 
+# Control Flow Diagram
 
-##### Control Flow Chart![image-20200427130353994](./docs/Control_flow_chart.jpg)
-
-
-
+##### ![image-20200427130353994](./docs/Control_flow_chart.jpg)
 
 
 
-
-### Implementation Plan
+# Implementation Plan
 
 I used Trello to manage my application production by setting timeline of building this app.  Using the Trello board allowed me to keep track of every task I needed to complete, as well as organise the process better.
 
-###### Trello Board
+## Trello Board
 
 ![image-20200426143525995](./docs/Trello_board.jpg)
 
-#### Gems used to develop this App
+
+
+### Gems used to develop this App
 
 Inventory App makes makes use of a number of Gems to improve the user experience and enhance the overall functionality of the game. All of these gems are stored in the Gemfile.
 
@@ -113,17 +106,7 @@ source "https://rubygems.org"
 
 
 
-Testing Log
-
-
-
-
-
-
-
-
-
-
+# Testing Log
 
 | Feature                                                      | Expected Outcome                                             | Actual Outcome | Any remaining issues? |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | --------------------- |
