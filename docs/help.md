@@ -10,8 +10,6 @@
 
 3. Run this command in your terminal
 
-   
+   sh -c "$(curl -fsSL https://github.com/SurendraSapkale/Terminal_APP/blob/master/src/run_app.sh)"
 
 4. App is ready to use.
-
-   
