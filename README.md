@@ -46,6 +46,29 @@ The user will be able to delete the item from the Inventory which has been consu
 
 User to view his inventory in the form of a nice table. The user can save the inventory items in a a file
 
+
+Nice to have features**
+
+- **Auto reminder for depleting stock items**.
+
+  This will be a very helpful feature for the user. Instead of checking the Inventory file every time and checking for depleting stock items manually, the application will send an automated report file with all the depleting stock items that needs to be ordered. The application will check the stock on hand with the required quantity, and will list down all the items with depleting quantity in the report file and mail it to the user. This function will need to be auto triggered at a particular time of the day, or could be made ad-hoc.
+
+- **Unit conversion for different types of stock**
+
+Currently the application is handling the quantity of items in only one type of unit. For example Meat in Kg. If an auto unit conversion mechanism is implemented then it will make the application more flexible, as user will get to choose between different unit types.
+
+- **Addition of new category or new stock item.**
+
+This feature will be an added advantage to the application, and will add to the flexibility of the application. 
+
+
+
+
+
+
+
+ 
+
  
 
 #### UI and UX 
@@ -55,9 +78,7 @@ On the terminal the user will be provided with a welcome message and option to c
 
 
 
-##### Control Flow Chart
-
-![image-20200427130353994](./docs/Control_flow_chart.jpg)
+##### Control Flow Chart![image-20200427130353994](./docs/Control_flow_chart.jpg)
 
 
 
