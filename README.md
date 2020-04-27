@@ -91,10 +91,12 @@ On the terminal the user will be provided with a welcome message and option to c
 
 
 
+### Implementation Plan
 
-
+I used Trello to manage my application production by setting timeline of building this app.  Using the Trello board allowed me to keep track of every task I needed to complete, as well as organise the process better.
 
 ###### Trello Board
+
 ![image-20200426143525995](./docs/Trello_board.jpg)
 
 
