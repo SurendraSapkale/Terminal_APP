@@ -1,3 +1,8 @@
+Terminal_App developments Links :
+https://github.com/SurendraSapkale/Terminal_APP.git
+https://trello.com/b/fBwZKWcm/myterminalapp
+
+
 ### Statement of Purpose and Scope
 
 Restaurant Inventory App  is an essential part of successful and well-organized business organization to manage inventory system in more effective and efficient manner. This App is designed to provide accurate information on all aspects of inventory to control the stock levels (whether inventory items are over stocked or out of stock) for an enterprise. 
@@ -89,13 +94,12 @@ On the terminal the user will be provided with a welcome message and option to c
 
 
 
-###### Trello board Set Up![image-20200426143525995](./docs/Trello_board.jpg)
+###### Trello Board
+![image-20200426143525995](./docs/Trello_board.jpg)
 
 
 
 
-Trello link :
-https://trello.com/b/fBwZKWcm/myterminalapp
 
 
 
